@@ -59,16 +59,24 @@ document.getElementById('profile').appendChild(myProfile);
 
 //10. In the div id matches section, target the first div element with the class name of firstName and change Name to Wendy.
 
-var newMatches = document.getElementsByClassName('otherMatches');
-for (i = 0; i < newMatches.length, i++){
-    newMatches
-}
+var newMatch = document.getElementsByClassName('firstName');
+newMatch[0].innerHTML = "Wendy"
+
 
 //11. In the div id matches section, target the first div element with the class name of otherAge and change Age to 48.
 
+var newOtherAge = document.getElementsByClassName('otherAge');
+newOtherAge[0].innerHTML = "48";
+
+
 //12. In the div id matches section, target the first div element with the class name of status and change Status to Single Mother.
 
+var newStatus = document.getElementsByClassName('status');
+newStatus[0].innerHTML = "Single Mother"
+
 //13. In the div id matches section, target the second div element with the class name of firstName and change Name to Peko Chan.
+var newName2 = document.getElementsByClassName('firstName');
+newName2[1].innerHTML = "Peko Chan";
 
 //14. In the div id matches section, target the second div element with the class name of otherAge and change Age to 68.
 
